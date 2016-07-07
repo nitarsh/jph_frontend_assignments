@@ -1,0 +1,72 @@
+/* This style is a modified version of the simple responsive framework (lecture 24) sample*/
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 1.75em;
+}
+
+p {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+span {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+
+
+/* Simple Responsive Framework. mod by @nitarsh*/
+.row {
+  width: 100%;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.panel {
+  border: 1px solid black;
+  background-color:#d9d9d9;
+
+  margin:10px 10px 10px 10px;
+}
+
+.panel-heading{
+  width: 100%;
+  height:40px;
+}
+
+.panel-heading-title{
+  float:right;
+  height: 100%;
+  border: 1px solid black;
+  border-top: 0px;
+  border-right: 0px;
+  background-color: pink;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.75em;
+}
+
+ .row > div:nth-child(1) .panel .panel-heading .panel-heading-title  {
+    background-color: #eaaebd;
+}
+
+ .row > div:nth-child(2) .panel .panel-heading .panel-heading-title  {
+    background-color: #85e09c;
+}
+
+ .row > div:nth-child(3) .panel .panel-heading .panel-heading-title  {
+    background-color: #aedbea;
+}
+
